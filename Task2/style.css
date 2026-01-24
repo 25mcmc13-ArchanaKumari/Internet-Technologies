@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background-color: #f2c8ff;
+  text-align: center;
+  padding: 30px;
+}
+
+.header h1 {
+  font-weight: 600;
+}
+
+.header p {
+  margin-top: 8px;
+}
+
+/* Navigation */
+.navigation {
+  text-align: right;
+  padding: 10px 20px;
+}
+
+.navigation a {
+  margin-left: 15px;
+  color: purple;
+  text-decoration: underline;
+  font-size: 0.95rem;
+}
+
+/* Category Title */
+.category-title {
+  padding: 20px;
+}
+
+.category-title h2 {
+  font-style: italic;
+}
+
+.category-title hr {
+  margin-top: 10px;
+  border: 1px solid purple;
+}
+
+/* Category Layout */
+.category {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+  align-items: center;
+}
+
+.category img {
+  width: 260px;
+  border-radius: 10px;
+}
+
+/* Content Boxes */
+.box {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+/* Red Box */
+.red {
+  background-color: #dcbcbc;
+  border-color: rgb(177, 28, 28);
+}
+
+.red-title {
+  color: rgb(177, 28, 28);
+  font-weight: 600;
+}
+
+/* Green Box */
+.green {
+  background-color: #9bc49b;
+  border-color: rgb(7, 71, 7);
+}
+
+.green-title {
+  color: rgb(5, 85, 5);
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  background-color: #f2c8ff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .category {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navigation {
+    text-align: center;
+  }
+
+  .category img {
+    width: 100%;
+  }
+}
