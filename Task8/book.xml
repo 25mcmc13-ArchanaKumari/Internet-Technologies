@@ -2,35 +2,35 @@
 
 <catalog>
 
-<book id="101">
+<book id="1001">
 <title>The Silent River</title>
 <author>Ananya Mehta</author>
 <genre>Drama</genre>
-<price>350</price>
+<price>250</price>
 <publish_date>2015-06-12</publish_date>
 </book>
 
-<book id="102">
+<book id="1002">
 <title>Midnight Shadows</title>
 <author>Rohan Verma</author>
 <genre>Thriller</genre>
-<price>420</price>
+<price>320</price>
 <publish_date>2019-10-05</publish_date>
 </book>
 
-<book id="103">
+<book id="1003">
 <title>Wings of Fire</title>
 <author>A.P.J. Abdul Kalam</author>
 <genre>Autobiography</genre>
-<price>280</price>
+<price>240</price>
 <publish_date>1999-01-01</publish_date>
 </book>
 
-<book id="104">
+<book id="1004">
 <title>The Space Beyond</title>
 <author>Kavita Rao</author>
 <genre>Science Fiction</genre>
-<price>500</price>
+<price>520</price>
 <publish_date>2021-03-18</publish_date>
 </book>
 
@@ -38,16 +38,17 @@
 <title>Understanding Economics</title>
 <author>Manoj Sharma</author>
 <genre>Education</genre>
-<price>390</price>
-<publish_date>2018-07-22</publish_date>
+<price>350</price>
+<publish_date>2023-07-22</publish_date>
 </book>
 
-<book id="106">
+<book id="1006">
 <title>Hidden Truth</title>
 <author>Sneha Kapoor</author>
 <genre>Mystery</genre>
 <price>310</price>
 <publish_date>2020-11-11</publish_date>
 </book>
+
 
 </catalog>
