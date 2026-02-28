@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ef7ee7, #764ba2);
+
+}
+
+.tabs {
+    width: 600px;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 40px;
+    font-weight: 600;
+}
+
+
+.tab-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+
+.tab-links li {
+    flex: 1;
+    text-align: center;
+    padding: 12px 0;
+    cursor: pointer;
+    font-weight: 500;
+    color: #555;
+     position: relative;
+}
+
+.tab-links li:hover {
+    color: #667eea;
+}
+
+.tab-links li.active-tab {
+    color: #667eea;
+    font-weight: 600;
+}
+
+.tab-links li.active-tab::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 25%;
+    width: 50%;
+    height: 3px;
+    background: #667eea;
+    border-radius: 5px;
+}
+
+.tab-content {
+    padding: 20px 0;
+}
+
+.tab-panel {
+    display: none;
+    animation: fadeEffect 0.4s ease-in-out;
+}
+
+.tab-panel h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.tab-panel p {
+    color: #666;
+    line-height: 1.6;
+}
